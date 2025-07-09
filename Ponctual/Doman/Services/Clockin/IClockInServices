@@ -1,0 +1,10 @@
+using PONCTUAL.Doman.Models;
+
+namespace PONCTUAL.Doman.Services.ClockIn;
+
+public interface IClockInService
+{
+    ClockInResult ClockIn(int userId);
+
+    ICollection<Registro> GetClockIns(ClockInFilter);
+}

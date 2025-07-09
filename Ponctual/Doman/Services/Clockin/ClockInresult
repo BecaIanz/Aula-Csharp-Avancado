@@ -1,0 +1,6 @@
+namespace PONCTUAL.Doman.Services.ClockIn;
+public record ClockInResult(
+    bool IsClockin,
+    bool IsSucess,
+    string Reason
+);
